@@ -1,4 +1,3 @@
-
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
@@ -19,7 +18,7 @@ export default function Menu({
 
     console.log("Teste Menu");
 
-    // Se a fase 1 estiver ativa, mostra a fase
+   
     if (faseOne) {
         return (
             <FaseOne
